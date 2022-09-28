@@ -118,7 +118,18 @@
 
 .ex-8-img:hover{
     transition: 4s;
-    filter: brightness(200%);
-    filter: sepia(60%);
+    filter: sepia(50%) blur(1px);
     border-radius: 40px;
+}
+
+.ex-9-img:hover{
+    transition: 4s;
+    filter: sepia(50%) blur(1px);
+    transform: scale(1.5);
+    border-radius: 40px;
+}
+
+.ex-10-icon{
+    transition: 4s;
+    animation: infinite linear;
 }
