@@ -25,17 +25,42 @@
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover{
+    transition: 4s;
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
-.ex-5-square {
+
+.ex-4-square:hover{
+    transition: 4s;
+    opacity: 0;
+}
+
+.ex-5-square{
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+.ex-5-square:hover{
+    transition: 4s;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    transition: 4s;
+    width: 30px;
+    height: 30px;
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
