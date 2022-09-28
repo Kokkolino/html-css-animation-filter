@@ -1,0 +1,216 @@
+/*
+1- step trovare il quadratino nell html
+2- hover sul quadratino
+3- hover cambia colore di sfondo
+4- temporizzo l hover realizzato prima al punto 3
+*/
+
+.ex-1-square:hover{
+  transition: 4s;
+  background-color: red;
+}
+
+.ex-2-square:hover{
+  transition: 4s;
+  width: 100%;
+}
+
+.ex-3-square:hover{
+  transition: 4s;
+  border-radius: 50%;
+}
+
+.ex-4-square:hover{
+  transition: 4s;
+  opacity: 0;
+}
+
+.ex-5-square:hover{
+  transition: 4s;
+  width: 100px;
+  height: 100px;
+}
+
+.ex-5-square:active{
+  transition: 4s;
+  width: 30px;
+  height: 30px;
+}
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+  transition: 4s;
+  filter: grayscale(100%);
+}
+
+.ex-8-img:hover{
+  transition: 4s;
+  filter: sepia(50%) blur(1px);
+  border-radius: 40px;
+}
+
+.ex-9-img:hover{
+  transition: 4s;
+  filter: sepia(50%) blur(1px);
+  transform: scale(1.5);
+  border-radius: 40px;
+}
+
+.ex-10-icon{
+  animation: spin infinite linear 1s;
+}
+@keyframes spin{
+  0%{
+      transform: rotate(1turn);
+  }
+}
+
+.ex-11-icon:hover{
+  animation: spin2 infinite linear 2s;
+}
+
+@keyframes spin2{
+  0%{
+      rotate: (0deg);
+  }
+
+  80%{
+      rotate: calc((360deg/4)*3);
+  }
+
+  100%{
+      rotate: (0deg);
+  }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+  animation: white-12-top linear infinite 4s;
+}
+
+@keyframes white-12-top{
+  0%{
+      top: -10px;
+      left: 10%;
+  }
+
+  47%{
+      top: -10px;
+      left: 100%;
+  }
+
+
+  94%{
+      top: -10px;
+      left: -10%;
+  }
+
+  100%{
+      top: -10px;
+      left: 10%;
+  }
+
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: white-12-bot linear infinite 4s;
+}
+
+@keyframes white-12-bot{
+  0%{
+      bottom: -10px;
+      right: 10%;
+  }
+
+  47%{
+      bottom: -10px;
+      right: 80%;
+  }
+
+
+  94%{
+      bottom: -10px;
+      right: -10%;
+  }
+
+  100%{
+      bottom: -10px;
+      right: 10%;
+  }
+}
+
+
+.ex-13-button:hover .ex-13-top-white{
+  animation: white-13-top linear infinite 4s;
+}
+
+@keyframes white-13-top{
+  0%{
+      top: -10px;
+      left: 10%;
+  }
+
+  23%{
+      top: -10px;
+      left: 100%;
+  }
+
+  46%{
+      top: 60px;
+      left: 100%;
+  }
+
+  69%{
+      top: 60px;
+      left: -10%;
+  }
+
+  92%{
+      top: -10px;
+      left: -10%;
+  }
+
+  100%{
+      top: -10px;
+      left: 10%;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation: white-13-bot linear infinite 4s;
+}
+
+@keyframes white-13-bot{
+  0%{
+      bottom: -10px;
+      right: 10%;
+  }
+
+  23%{
+      bottom: -10px;
+      right: 80%;
+  }
+
+  46%{
+      bottom: 60px;
+      right: 80%;
+  }
+
+  69%{
+      bottom: 60px;
+      right: -10%;
+  }
+
+  92%{
+      bottom: -10px;
+      right: -10%;
+  }
+
+  100%{
+      bottom: -10px;
+      right: 10%;
+  }
+}
